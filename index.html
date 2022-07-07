@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Weather Forecast</title>
+</head>
+<body onload="DefaultScreen()">
+    <div class="input ">
+        <h1 id="Para1">Weather Forecast</h1>
+        <p id="inputContainer">City: <input type="text" class="click"  id="cityInput"></p>
+        <button type="button"  class="click"  onclick="GetInfo()">Click Me</button>        
+        <h2 id="cityName">---New Delhi---</h2>
+    </div>
+    
+    <div id = "weatherContainer">
+        <div id="iconsContainer d-flex justify-content-center align-items-center  ">    
+            <div class = "icons ">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="" class="imgClass" id="img1"></div>
+                
+                <p class="minValues" id="day1Min">Loading...</p>
+                <p class="maxValues" id="day1Max">Loading...</p>
+                <p class="" id="day1humidity">Loading...</p>
+                <p class="" id="day1speed">Loading...</p>
+                
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="" class="imgClass" id="img2"></div>
+                
+                <p class="minValues" id="day2Min">Loading...</p>
+                <p class="maxValues" id="day2Max">Loading...</p>
+                 <p class="" id="day2humidity">Loading...</p>
+                <p class="" id="day2speed">Loading...</p>
+            </div>
+            <div class = "icons ">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="" class="imgClass" id="img3"></div>
+                
+                <p class="minValues" id="day3Min">Loading...</p>
+                <p class="maxValues" id="day3Max">Loading...</p>
+                 <p class="" id="day3humidity">Loading...</p>
+                <p class="" id="day3speed">Loading...</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="" class="imgClass" id="img4"></div>
+                
+                <p class="minValues" id="day4Min">Loading...</p>
+                <p class="maxValues" id="day4Max">Loading...</p>
+                 <p class="" id="day4humidity">Loading...</p>
+                <p class="" id="day4speed">Loading...</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="" class="imgClass" id="img5"></div>
+                
+                <p class="minValues" id="day5Min">Loading...</p>
+                <p class="maxValues" id="day5Max">Loading...</p>
+                 <p class="" id="day5humidity">Loading...</p>
+                <p class="" id="day5speed">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="app.js"></script>
+
+    <div class="personal-detail">
+        <p>Designed By Vivek Rajput</p>
+        <p><a href="mailto:vivekrajputas557@gmail.com">Send Email</a></p>
+        <p><a href="">Code Link</a></p>
+    </div>
+</body>
+</html>
